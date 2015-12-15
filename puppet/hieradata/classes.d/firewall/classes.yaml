@@ -1,3 +1,0 @@
-classes:
-  - vefirewall
-  - base::role::firewall

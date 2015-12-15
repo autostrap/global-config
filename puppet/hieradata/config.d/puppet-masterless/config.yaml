@@ -1,2 +1,2 @@
-sys11puppet::masterless::noop: false
-sys11puppet::masterless::runinterval: '1'
+autopuppet::masterless::noop: false
+autopuppet::masterless::runinterval: '1'

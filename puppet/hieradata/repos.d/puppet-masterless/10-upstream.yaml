@@ -1,0 +1,6 @@
+# 10-upstream.yaml: Upstream repositories
+
+repodeploy::repos:
+  '/opt/puppet-modules/autopuppet':
+    source: https://github.com/syseleven/puppet-autopuppet.git
+    provider: git

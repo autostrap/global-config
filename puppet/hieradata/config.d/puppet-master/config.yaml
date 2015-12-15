@@ -1,11 +1,11 @@
 # Configuration for deploying puppet master/agents automatically using stephenrjohnson-puppet (common to both dev and hardware cloud).
 
-sys11puppet::master::reports: 'store, http'
-sys11puppet::master::clientclean: false
+autopuppet::master::reports: 'store, http'
+autopuppet::master::clientclean: false
 
 # enable directory environments
-sys11puppet::master::environments: 'directory'
-sys11puppet::master::masterenv:
+autopuppet::master::environments: 'directory'
+autopuppet::master::masterenv:
   'production':
     modulepath: '/opt/puppet-modules/'
     manifest: '/etc/puppet/manifests/'
@@ -13,8 +13,8 @@ sys11puppet::master::masterenv:
 # dashboard broken with ubuntu-14
 #  puppet-dashboard : Depends: ruby1.8 (>= 1.8.7) which is a virtual package.
 #                      Depends: rubygems which is a virtual package.
-sys11puppet::dashboard::enable: false
-sys11puppet::master::reporturl: "http://%{hiera('sys11puppet::common::puppet_master')}:3000/reports/upload"
+autopuppet::dashboard::enable: false
+autopuppet::master::reporturl: "http://%{hiera('autopuppet::common::puppet_master')}:3000/reports/upload"
 
 puppetdb::java_args:
   '-Xmx': '512m'

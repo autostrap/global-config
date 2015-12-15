@@ -1,6 +1,0 @@
-# 10-syseleven.yaml: Syseleven's own repositories
-
-repodeploy::repos:
-  '/opt/puppet-modules/sys11puppet':
-    source: https://github.com/syseleven/puppet-sys11puppet.git
-    provider: git

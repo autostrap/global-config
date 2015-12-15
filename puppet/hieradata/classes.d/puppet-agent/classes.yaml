@@ -1,2 +1,2 @@
 classes:
-  - sys11puppet::role::agent
+  - autopuppet::role::agent

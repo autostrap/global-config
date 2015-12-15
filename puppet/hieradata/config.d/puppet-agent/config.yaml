@@ -1,4 +1,4 @@
-sys11puppet::agent::noop: 'false'
-sys11puppet::agent::runinterval: '1'
-sys11puppet::master::clientclean: false
-sys11puppet::agent::runstyle: 'service'
+autopuppet::agent::noop: 'false'
+autopuppet::agent::runinterval: '1'
+autopuppet::master::clientclean: false
+autopuppet::agent::runstyle: 'service'
