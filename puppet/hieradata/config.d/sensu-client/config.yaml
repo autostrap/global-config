@@ -1,3 +1,0 @@
-sys11sensu::rabbitmq_host: sensu.local
-sys11sensu::rabbitmq_user: sensu
-sys11sensu::rabbitmq_vhost: sensu
