@@ -5,3 +5,6 @@ repodeploy::repos:
   '/opt/puppet-modules/ssh':
     source: https://github.com/autostrap/puppet-ssh.git
     provider: git
+  '/opt/puppet-modules/base':
+    source: https://github.com/autostrap/puppet-base.git
+    provider: git
